@@ -1,8 +1,3 @@
-service CameraDaemon /vendor/bin/CameraDaemon hi6250 BOND
-    class main
-    user media
-    group audio camera inet net_bt net_bt_admin net_bw_acct drmrpc mediadrm system dsm
-
 on boot
     chown system system /dev/ttyAMA4
     chmod 660 /dev/ttyAMA4
@@ -14,3 +9,11 @@ on boot
 
 on property:sys.boot_completed=1
     write /sys/kernel/rcc/event BOOT_COMPLETE
+    
+# Service add below.
+service CameraDaemon /vendor/bin/CameraDaemon hi6250 BOND
+    class main
+    user media
+    group audio camera inet net_bt net_bt_admin net_bw_acct drmrpc mediadrm system dsm
+    writepid /dev/cpuset/top-app/tasks /dev/stune/top-app/tasks
+
