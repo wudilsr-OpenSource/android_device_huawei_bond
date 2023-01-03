@@ -6,6 +6,9 @@ on boot
     write /sys/kernel/rcc/event PASSIVE_MODE
     write /sys/kernel/rcc/max_anon_clean_size 512M
     write /sys/kernel/rcc/enable 1
+    
+    #disable hmp rt optimization
+    write /sys/kernel/hmp/rt_opt 0
 
 on property:sys.boot_completed=1
     write /sys/kernel/rcc/event BOOT_COMPLETE
