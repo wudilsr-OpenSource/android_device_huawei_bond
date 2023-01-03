@@ -289,9 +289,5 @@ odm/etc/firmware/ts/bond_parade_ofilm.bin
 odm/etc/firmware/ts/bond_parade_ofilmg6.bin
 odm/etc/firmware/ts/bond_parade_tm.bin
 
-# Nfc
-product/etc/nfc/libnfc_brcm_was_L21.conf:odm/etc/libnfc-nci.conf
-product/etc/nfc/libnfc_nxp_was_L21.conf:odm/etc/libnfc-nxp.conf
-
 # TEE
 odm/ta/sign_tool_product_ta.sec
