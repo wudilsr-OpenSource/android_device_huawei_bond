@@ -42,7 +42,7 @@ on property:ro.boot.product.hardware.sku=BND-L34
     setprop ro.odm.config.modem_number 1
 
 # Service add below.
-service CameraDaemon /vendor/bin/CameraDaemon hi6250 ANNE
+service CameraDaemon /vendor/bin/CameraDaemon hi6250 BOND
     class main
     user media
     group audio camera inet net_bt net_bt_admin net_bw_acct drmrpc mediadrm system dsm
