@@ -272,12 +272,10 @@ odm/etc/camera/videostabilization/config.xml
 -odm/lib64/hwcam/hwcam.imx498.pd.so
 
 # Device
-vendor/etc/cfg_ane_al00_hisi.ini
-vendor/etc/cfg_ane_lx1_hisi.ini
-vendor/etc/cfg_ane_lx1_vh_hisi.ini
-vendor/etc/cfg_ane_lx2_hisi.ini
-vendor/etc/cfg_ane_lx2j_hisi.ini
-vendor/etc/cfg_ane_lx3_hisi.ini
+vendor/etc/cfg_bnd_al10_hisi.ini
+vendor/etc/cfg_bnd_l21_hisi.ini
+vendor/etc/cfg_bnd_l24_hisi.ini
+vendor/etc/cfg_bnd_tl10_hisi.ini
 
 # Firmware
 odm/etc/firmware/ts/bond_parade_boe.bin
