@@ -1,1 +1,1 @@
-# Device Tree for Huawei P20 Lite (anne, EMUI 9.1)
+# Device Tree for Honor 7X (bond, EMUI 9.1)

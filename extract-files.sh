@@ -13,10 +13,7 @@ function blob_fixup() {
             sed -i 's/GB2312/iso-8859-1/g' "${2}"
             sed -i 's/xmlversion/xml version/g' "${2}"
             ;;
-	odm/etc/libnfc-nci.conf)
-	    sed -i 's/\/data\/nfc/\/data\/vendor\/nfc/g' "${2}"
-	    ;;
-        odm/lib64/hwcam/hwcam.hi6250.m.ANNE.so)
+        odm/lib64/hwcam/hwcam.hi6250.m.BOND.so)
             "${PATCHELF}" --remove-needed "vendor.huawei.hardware.ai@1.0.so" "${2}"
             "${PATCHELF}" --remove-needed "vendor.huawei.hardware.biometrics.hwsecurefacerecognize@1.0.so" "${2}"
             ## NOP vendor.huawei.hardware.perfgenius calls
@@ -43,7 +40,7 @@ fi
 
 set -e
 
-export DEVICE=anne
+export DEVICE=bond
 export DEVICE_COMMON=hi6250-9-common
 export VENDOR=huawei
 

@@ -8,7 +8,7 @@
 
 set -e
 
-export DEVICE=anne
+export DEVICE=bond
 export DEVICE_COMMON=hi6250-9-common
 export VENDOR=huawei
 
