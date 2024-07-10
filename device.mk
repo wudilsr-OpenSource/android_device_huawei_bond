@@ -7,6 +7,8 @@
 ## Device Path
 DEVICE_PATH := device/huawei/bond
 
+PRODUCT_IS_TABLET := true
+
 ## Inherit common device
 $(call inherit-product, device/huawei/hi6250-9-common/common.mk)
 
