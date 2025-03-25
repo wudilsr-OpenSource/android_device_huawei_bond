@@ -14,30 +14,35 @@ on property:sys.boot_completed=1
     write /sys/kernel/rcc/event BOOT_COMPLETE
 
 #Modemnum
-on property:ro.boot.product.hardware.sku=ANE-L01
+on property:ro.boot.product.hardware.sku=BND-AL00
+    setprop ro.odm.config.modem_number 1
+    
+on property:ro.boot.product.hardware.sku=BND-AL10
     setprop ro.odm.config.modem_number 1
 
-on property:ro.boot.product.hardware.sku=ANE-L02
+on property:ro.boot.product.hardware.sku=BND-L2
+    setprop ro.odm.config.modem_number 1
+    
+on property:ro.boot.product.hardware.sku=BND-L21
     setprop ro.odm.config.modem_number 1
 
-on property:ro.boot.product.hardware.sku=ANE-L02J
+on property:ro.boot.product.hardware.sku=BND-L22
     setprop ro.odm.config.modem_number 1
 
-on property:ro.boot.product.hardware.sku=ANE-L02K
+on property:ro.boot.product.hardware.sku=BND-L24
     setprop ro.odm.config.modem_number 1
 
-on property:ro.boot.product.hardware.sku=ANE-L03
+on property:ro.boot.product.hardware.sku=BND-L31
     setprop ro.odm.config.modem_number 1
 
-on property:ro.boot.product.hardware.sku=ANE-L12J
+on property:ro.boot.product.hardware.sku=BND-L34
     setprop ro.odm.config.modem_number 1
-
-on property:ro.boot.product.hardware.sku=ANE-L12JPZ
+    
+on property:ro.boot.product.hardware.sku=BND-TL10
     setprop ro.odm.config.modem_number 1
 
 # Service add below.
-
-service CameraDaemon /vendor/bin/CameraDaemon hi6250 ANNE
+service CameraDaemon /vendor/bin/CameraDaemon hi6250 BOND
     class main
     user media
     group audio camera inet net_bt net_bt_admin net_bw_acct drmrpc mediadrm system
