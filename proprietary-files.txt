@@ -294,9 +294,9 @@ odm/etc/firmware/ts/bond_parade_ofilmg6.bin
 odm/etc/firmware/ts/bond_parade_tm.bin
 
 # HisiRadio
-system/framework/hwIms-common.jar
-system/framework/hwTelephony-common.jar
-system/framework/telephony-common.jar
+-system/framework/hwIms-common.jar
+-system/framework/hwTelephony-common.jar
+-system/framework/telephony-common.jar
 
 # IMS App
 system/app/HwIms/HwIms.apk
