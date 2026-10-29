@@ -13,34 +13,6 @@ on boot
 on property:sys.boot_completed=1
     write /sys/kernel/rcc/event BOOT_COMPLETE
 
-#Modemnum
-on property:ro.boot.product.hardware.sku=BND-AL00
-    setprop ro.odm.config.modem_number 1
-    
-on property:ro.boot.product.hardware.sku=BND-AL10
-    setprop ro.odm.config.modem_number 1
-
-on property:ro.boot.product.hardware.sku=BND-L2
-    setprop ro.odm.config.modem_number 1
-    
-on property:ro.boot.product.hardware.sku=BND-L21
-    setprop ro.odm.config.modem_number 1
-
-on property:ro.boot.product.hardware.sku=BND-L22
-    setprop ro.odm.config.modem_number 1
-
-on property:ro.boot.product.hardware.sku=BND-L24
-    setprop ro.odm.config.modem_number 1
-
-on property:ro.boot.product.hardware.sku=BND-L31
-    setprop ro.odm.config.modem_number 1
-
-on property:ro.boot.product.hardware.sku=BND-L34
-    setprop ro.odm.config.modem_number 1
-    
-on property:ro.boot.product.hardware.sku=BND-TL10
-    setprop ro.odm.config.modem_number 1
-
 # Service add below.
 service CameraDaemon /vendor/bin/CameraDaemon hi6250 BOND
     class main
