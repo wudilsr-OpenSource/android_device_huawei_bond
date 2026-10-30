@@ -1,5 +1,5 @@
 #
-# Vendor Blobs for bond - ODM blobs from BND-LGRP2-OVS 9.1.0.164
+# Vendor Blobs for bond - ODM blobs from BND-LGRP1-CHN 9.1.0.146
 #
 
 # Audio
