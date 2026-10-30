@@ -292,6 +292,7 @@ odm/etc/firmware/ts/bond_parade_ebbg.bin
 odm/etc/firmware/ts/bond_parade_ofilm.bin
 odm/etc/firmware/ts/bond_parade_ofilmg6.bin
 odm/etc/firmware/ts/bond_parade_tm.bin
+vendor/firmware/isp_dts.img
 
 # HisiRadio
 #-system/framework/hwIms-common.jar
