@@ -299,8 +299,5 @@ vendor/firmware/isp_dts.img
 #-system/framework/hwTelephony-common.jar
 #-system/framework/telephony-common.jar
 
-# IMS App
-system/app/HwIms/HwIms.apk
-
 # TEE
 odm/ta/sign_tool_product_ta.sec
