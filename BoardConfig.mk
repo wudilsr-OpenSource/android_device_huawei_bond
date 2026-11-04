@@ -10,6 +10,9 @@ DEVICE_PATH := device/huawei/bond
 ## Include common BoardConfig
 include device/huawei/hi6250-9-common/BoardConfigCommon.mk
 
+# Vendor props
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
+
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE      := 25165824    # mmcblk0p31 (24576*1024)
 BOARD_CACHEIMAGE_PARTITION_SIZE     := 134217728   # mmcblk0p43 (131072*1024)

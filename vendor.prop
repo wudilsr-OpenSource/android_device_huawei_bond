@@ -1,0 +1,6 @@
+#
+# vendor.prop for bond
+#
+
+# RIL
+ro.huawei.build.version.incremental=9.1.0.146C00
