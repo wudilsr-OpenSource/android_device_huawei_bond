@@ -15,6 +15,12 @@ function blob_fixup() {
 	    sed -i 's/GB2312/iso-8859-1/g' "${2}"
 	    sed -i 's/xmlversion/xml version/g' "${2}"
             ;;
+        vendor/lib*/libhivwservice.so)
+            "${PATCHELF}" --add-needed "libprocessgroup.so" "${2}"
+            ;;
+        vendor/lib*/libcamera_algo.so)
+            "${PATCHELF}" --add-needed "libshim_ui.so" "${2}"
+            ;;
         vendor/firmware/isp_dts.img)
             python3 "${BOND_DIR}/tools/trim_isp_dts.py" "${2}" "${2}" BOND
             ;;
