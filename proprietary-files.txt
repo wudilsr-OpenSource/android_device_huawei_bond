@@ -22,14 +22,22 @@ odm/etc/audio/modem/modem_BOND_telecomiot.xml
 odm/etc/audio/modem/modem_BOND_unicomiot.xml
 odm/etc/audio/simple_pa/BND_user_defined_scene.xml
 odm/etc/audio/simple_pa/TPS61256A_configs.xml
-odm/etc/audio/sws/sws_3d_BOND_normal.cfg
 odm/etc/audio/sws/sws_3d_BOND-Oversea_normal.cfg
-odm/etc/audio/sws/sws_BOND_normal.xml
+odm/etc/audio/sws/sws_3d_BOND_normal.cfg
 odm/etc/audio/sws/sws_BOND-Oversea_normal.xml
+odm/etc/audio/sws/sws_BOND_normal.xml
 odm/etc/audio/volume/audio_policy_volumes.xml
 odm/etc/audio/volume/volume_point.xml
 
 # Camera Configs
+odm/etc/camera/dcvalidation.xml
+odm/etc/camera/hisppreproc.xml
+odm/etc/camera/ippalgoconfig.xml
+odm/etc/camera/mempoolcfg.xml
+odm/etc/camera/monitor_config.xml
+odm/etc/camera/offlinealgocfg.xml
+odm/etc/camera/pdafvalidation.xml
+odm/etc/camera/ppconfig.xml
 odm/etc/camera/bshutter/device.config
 odm/etc/camera/bshutter/flash.txt
 odm/etc/camera/bshutter/imx298/algo.xml
@@ -94,10 +102,9 @@ odm/etc/camera/davinci/ov16b10_bond/nicefood/imgproc.xml
 odm/etc/camera/davinci/ov8856/hdr.xml
 odm/etc/camera/davinci/ov8856/imgproc.xml
 odm/etc/camera/davinci/ov8856/multiframe.xml
-odm/etc/camera/dcamera/BOND/config.xml
 odm/etc/camera/dcamera/dual_lave_platformconfig.xml
 odm/etc/camera/dcamera/factoryOtpUsed.xml
-odm/etc/camera/dcvalidation.xml
+odm/etc/camera/dcamera/BOND/config.xml
 odm/etc/camera/facebeauty/config.xml
 odm/etc/camera/facedetection/config.xml
 odm/etc/camera/frontbokeh/0T.dat
@@ -109,67 +116,66 @@ odm/etc/camera/frontbokeh/5T.dat
 odm/etc/camera/frontbokeh/6T.dat
 odm/etc/camera/frontbokeh/7T.dat
 odm/etc/camera/frontbokeh/8T.dat
+odm/etc/camera/frontbokeh/DNN_Seg_Short_329.model
+odm/etc/camera/frontbokeh/FcveConfig.dat
 odm/etc/camera/frontbokeh/blfkernelI_001.dat
 odm/etc/camera/frontbokeh/blfkernelI_005.dat
 odm/etc/camera/frontbokeh/blfkernelI_010.dat
-odm/etc/camera/frontbokeh/DNN_Seg_Short_329.model
-odm/etc/camera/frontbokeh/FcveConfig.dat
 odm/etc/camera/frontbokeh/fcve.xml
 odm/etc/camera/frontbokeh/frontBokeh_lensBlur.bin
+odm/etc/camera/hdccalib/defaultOtp.rear
+odm/etc/camera/hdccalib/device.config
+odm/etc/camera/hdccalib/hw_calib_setting.xml
 odm/etc/camera/hdccalib/bond_imx298_foxconn/hw_calib_setting.xml
 odm/etc/camera/hdccalib/bond_imx298_ofilm/hw_calib_setting.xml
 odm/etc/camera/hdccalib/bond_imx498_foxconn/hw_calib_setting.xml
 odm/etc/camera/hdccalib/bond_ov16b10_liteon/hw_calib_setting.xml
 odm/etc/camera/hdccalib/bond_ov16b10_ofilm/hw_calib_setting.xml
-odm/etc/camera/hdccalib/defaultOtp.rear
-odm/etc/camera/hdccalib/device.config
-odm/etc/camera/hdccalib/hw_calib_setting.xml
-odm/etc/camera/hisppreproc.xml
-odm/etc/camera/hwbeauty/default/foreign/hwbeauty_params.xml
-odm/etc/camera/hwbeauty/default/hwbeauty_params.xml
 odm/etc/camera/hwbeauty/device.config
-odm/etc/camera/hwbeauty/hi843/bm/hwbeauty_params.xml
+odm/etc/camera/hwbeauty/default/hwbeauty_params.xml
+odm/etc/camera/hwbeauty/default/foreign/hwbeauty_params.xml
 odm/etc/camera/hwbeauty/hi843/hwbeauty_params.xml
+odm/etc/camera/hwbeauty/hi843/bm/hwbeauty_params.xml
 odm/etc/camera/hwbeauty/hi843/lm/hwbeauty_params.xml
 odm/etc/camera/hwbeauty/hi843/ntdny/hwbeauty_params.xml
 odm/etc/camera/hwbeauty/hi843/oz/hwbeauty_params.xml
 odm/etc/camera/hwbeauty/hi843/rh/hwbeauty_params.xml
 odm/etc/camera/hwbeauty/hi843/zdfz/hwbeauty_params.xml
 odm/etc/camera/hwbeauty/hi843/zg/hwbeauty_params.xml
-odm/etc/camera/hwbeauty/imx219/bm/hwbeauty_params.xml
 odm/etc/camera/hwbeauty/imx219/hwbeauty_params.xml
+odm/etc/camera/hwbeauty/imx219/bm/hwbeauty_params.xml
 odm/etc/camera/hwbeauty/imx219/lm/hwbeauty_params.xml
 odm/etc/camera/hwbeauty/imx219/ntdny/hwbeauty_params.xml
 odm/etc/camera/hwbeauty/imx219/oz/hwbeauty_params.xml
 odm/etc/camera/hwbeauty/imx219/rh/hwbeauty_params.xml
 odm/etc/camera/hwbeauty/imx219/zdfz/hwbeauty_params.xml
 odm/etc/camera/hwbeauty/imx219/zg/hwbeauty_params.xml
-odm/etc/camera/hwbeauty/imx298/bm/hwbeauty_params.xml
 odm/etc/camera/hwbeauty/imx298/hwbeauty_params.xml
+odm/etc/camera/hwbeauty/imx298/bm/hwbeauty_params.xml
 odm/etc/camera/hwbeauty/imx298/lm/hwbeauty_params.xml
 odm/etc/camera/hwbeauty/imx298/ntdny/hwbeauty_params.xml
 odm/etc/camera/hwbeauty/imx298/oz/hwbeauty_params.xml
 odm/etc/camera/hwbeauty/imx298/rh/hwbeauty_params.xml
 odm/etc/camera/hwbeauty/imx298/zdfz/hwbeauty_params.xml
 odm/etc/camera/hwbeauty/imx298/zg/hwbeauty_params.xml
-odm/etc/camera/hwbeauty/imx498/bm/hwbeauty_params.xml
 odm/etc/camera/hwbeauty/imx498/hwbeauty_params.xml
+odm/etc/camera/hwbeauty/imx498/bm/hwbeauty_params.xml
 odm/etc/camera/hwbeauty/imx498/lm/hwbeauty_params.xml
 odm/etc/camera/hwbeauty/imx498/ntdny/hwbeauty_params.xml
 odm/etc/camera/hwbeauty/imx498/oz/hwbeauty_params.xml
 odm/etc/camera/hwbeauty/imx498/rh/hwbeauty_params.xml
 odm/etc/camera/hwbeauty/imx498/zdfz/hwbeauty_params.xml
 odm/etc/camera/hwbeauty/imx498/zg/hwbeauty_params.xml
-odm/etc/camera/hwbeauty/ov16b10_bond/bm/hwbeauty_params.xml
 odm/etc/camera/hwbeauty/ov16b10_bond/hwbeauty_params.xml
+odm/etc/camera/hwbeauty/ov16b10_bond/bm/hwbeauty_params.xml
 odm/etc/camera/hwbeauty/ov16b10_bond/lm/hwbeauty_params.xml
 odm/etc/camera/hwbeauty/ov16b10_bond/ntdny/hwbeauty_params.xml
 odm/etc/camera/hwbeauty/ov16b10_bond/oz/hwbeauty_params.xml
 odm/etc/camera/hwbeauty/ov16b10_bond/rh/hwbeauty_params.xml
 odm/etc/camera/hwbeauty/ov16b10_bond/zdfz/hwbeauty_params.xml
 odm/etc/camera/hwbeauty/ov16b10_bond/zg/hwbeauty_params.xml
-odm/etc/camera/hwbeauty/ov8856/bm/hwbeauty_params.xml
 odm/etc/camera/hwbeauty/ov8856/hwbeauty_params.xml
+odm/etc/camera/hwbeauty/ov8856/bm/hwbeauty_params.xml
 odm/etc/camera/hwbeauty/ov8856/lm/hwbeauty_params.xml
 odm/etc/camera/hwbeauty/ov8856/ntdny/hwbeauty_params.xml
 odm/etc/camera/hwbeauty/ov8856/oz/hwbeauty_params.xml
@@ -180,40 +186,34 @@ odm/etc/camera/hwldc/device.config
 odm/etc/camera/hwldc/hi843/hwldc_config.xml
 odm/etc/camera/hwldc/imx219/hwldc_config.xml
 odm/etc/camera/hwldc/ov8856/hwldc_config.xml
+odm/etc/camera/hwscope/device.config
 odm/etc/camera/hwscope/bond/hwsz.xml
 odm/etc/camera/hwscope/bond/kernel
-odm/etc/camera/hwscope/device.config
-odm/etc/camera/ippalgoconfig.xml
 odm/etc/camera/ispenhnc/ispenhncalgoconfig.xml
-odm/etc/camera/mempoolcfg.xml
-odm/etc/camera/mmi7cm/bond_imx298_foxconn/mmi7cmConfig.xml
-odm/etc/camera/mmi7cm/bond_imx298_ofilm/mmi7cmConfig.xml
-odm/etc/camera/mmi7cm/bond_imx498_foxconn/mmi7cmConfig.xml
-odm/etc/camera/mmi7cm/bond_ov16b10_liteon/mmi7cmConfig.xml
-odm/etc/camera/mmi7cm/bond_ov16b10_ofilm/mmi7cmConfig.xml
-odm/etc/camera/mmi7cm/device.config
 odm/etc/camera/mmi/config.xml
 odm/etc/camera/mmi/dualc_mmi_platformconfig.xml
+odm/etc/camera/mmi/pdaf/device.config
 odm/etc/camera/mmi/pdaf/bond_imx298_foxconn/pdafvalidation.xml
 odm/etc/camera/mmi/pdaf/bond_imx298_ofilm/pdafvalidation.xml
 odm/etc/camera/mmi/pdaf/bond_imx498_foxconn/pdafvalidation.xml
 odm/etc/camera/mmi/pdaf/bond_ov16b10_liteon/pdafvalidation.xml
 odm/etc/camera/mmi/pdaf/bond_ov16b10_ofilm/pdafvalidation.xml
-odm/etc/camera/mmi/pdaf/device.config
-odm/etc/camera/monitor_config.xml
+odm/etc/camera/mmi7cm/device.config
+odm/etc/camera/mmi7cm/bond_imx298_foxconn/mmi7cmConfig.xml
+odm/etc/camera/mmi7cm/bond_imx298_ofilm/mmi7cmConfig.xml
+odm/etc/camera/mmi7cm/bond_imx498_foxconn/mmi7cmConfig.xml
+odm/etc/camera/mmi7cm/bond_ov16b10_liteon/mmi7cmConfig.xml
+odm/etc/camera/mmi7cm/bond_ov16b10_ofilm/mmi7cmConfig.xml
 odm/etc/camera/multidenoise/device.config
+odm/etc/camera/multidenoise/multidenoise.xml
 odm/etc/camera/multidenoise/hi843/multiframe.xml
 odm/etc/camera/multidenoise/imx219/multiframe.xml
 odm/etc/camera/multidenoise/imx298/multiframe.xml
 odm/etc/camera/multidenoise/imx498/multiframe.xml
-odm/etc/camera/multidenoise/multidenoise.xml
 odm/etc/camera/multidenoise/ov16b10_bond/multiframe.xml
 odm/etc/camera/multidenoise/ov8856/multiframe.xml
 odm/etc/camera/nicefood/device.config
-odm/etc/camera/offlinealgocfg.xml
-odm/etc/camera/pdafvalidation.xml
 odm/etc/camera/portrait/portraitModeConfig.xml
-odm/etc/camera/ppconfig.xml
 odm/etc/camera/smartae/device.config
 odm/etc/camera/smartae/hi843/SmartAE.xml
 odm/etc/camera/smartae/imx219/SmartAE.xml
@@ -234,6 +234,7 @@ odm/etc/camera/videostabilization/config.xml
 -odm/lib/libarcsoft_beautyshot.so
 -odm/lib/libdcamera_effect.so
 -odm/lib/libmrc_cg_beauty.so
+-odm/lib64/libSonyPDLibrary.so
 -odm/lib64/libarcsoft_agegender_estimation.so
 -odm/lib64/libarcsoft_beautyshot.so
 -odm/lib64/libarcsoft_palm_detection.so
@@ -244,7 +245,6 @@ odm/etc/camera/videostabilization/config.xml
 -odm/lib64/libmmi_depth.so
 -odm/lib64/libmpbase.so
 -odm/lib64/libmrc_cg_beauty.so
--odm/lib64/libSonyPDLibrary.so
 -odm/lib64/libunlockmegcv.so
 
 # Camera HALs
@@ -309,8 +309,8 @@ vendor/firmware/wifi_cfg
 
 # Camera
 vendor/lib/hw/hicam.hal.bz.so
-vendor/lib64/hw/hicam.hal.bz.so
 vendor/lib64/libcamera_algo.so
+vendor/lib64/hw/hicam.hal.bz.so
 
 # Misc
 vendor/lib/libhivwservice.so
@@ -318,8 +318,8 @@ vendor/lib64/libhivwservice.so
 
 # Modem
 vendor/etc/factory_modem.cfg
-vendor/etc/modemConfig/balong/FieldTest.cfg
 vendor/etc/modemConfig/hids_ue_msg.cfg
+vendor/etc/modemConfig/balong/FieldTest.cfg
 
 # RIL
 vendor/phone.prop
