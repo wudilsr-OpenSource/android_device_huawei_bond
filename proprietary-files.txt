@@ -298,14 +298,11 @@ vendor/firmware/Total.wdk
 vendor/firmware/bfgx_and_wifi_cfg
 vendor/firmware/bfgx_cfg
 vendor/firmware/cr4_asic.bin
-vendor/firmware/cr4_regmem.bin
-vendor/firmware/cr4_regmem_u1.bin
 vendor/firmware/hifi_6402.img
 vendor/firmware/hifi_6402_2spk.img
 vendor/firmware/hifi_6402_2wake.img
 vendor/firmware/hifi_6402_tas2smartpa.img
 vendor/firmware/hifi_6402_tas4smartpa.img
-vendor/firmware/isp_bw.elf
 vendor/firmware/isp_dts.img
 vendor/firmware/isp_fw.elf
 vendor/firmware/wifi_cfg
@@ -321,13 +318,8 @@ vendor/lib64/libhivwservice.so
 
 # Modem
 vendor/etc/factory_modem.cfg
-vendor/etc/modemConfig/VIA/basic_name
-vendor/etc/modemConfig/VIA/viacbp82d_FieldTest.bcfg
 vendor/etc/modemConfig/balong/FieldTest.cfg
-vendor/etc/modemConfig/balong/basic_name
 vendor/etc/modemConfig/hids_ue_msg.cfg
-vendor/etc/modemConfig/viacbp82d_log.bcfg
-vendor/etc/modemConfig/viacbp82d_shutdown_log.bcfg
 
 # RIL
 vendor/phone.prop
